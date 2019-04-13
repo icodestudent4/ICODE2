@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.header{
-    padding: 60px;
-    text-align: center;
-    background:#1abc9c;
-    color: ;
-    font-size: 30px;
+.topnav{
+	overflow: hidden;
+	background-color: #333;  
+
 }
+
 .topnav a {
 	float: left;
 	display: block;
-	color: f2f2f2;
+	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-.topnax a:hover{
+.topnav a:hover{
 	background-color:#ddd;
 	color: black;
 }
@@ -28,6 +23,13 @@
 <p>It's good for you.</p>
 </div>
 <body>
+
+
+<div class= "topnav">
+<a href="https://shooters.io">Game</a>
+</div>
+
+
 <div style="background-color:black;color:white;padding:20px;">   
 <h2>Potatoes</h2>
 <p> Potatoes are plants the grow underground amd they were founded by a person named Sir Walter Raleigh in the year of 1589. It was produced on a field of 40,000 acres.It took almost four decades to spread them all over Europe. </p>
@@ -38,18 +40,8 @@
   <p>Potatoes are useful as food or medications.The reason a potato is medication is becuae native americans use it.</p>
 </div>
 </div>
-<style>
-#Thankyouforlearning! {
-  background-color: Blue;
-  color: black;
-  padding: 40px;
-  text-align: center;
-} 
-</style>
 
-<h1 id="myHeader">Thank you for learning!</h1>
-<div class= "topnav">
-<a href="#">https://www.youtube.com/watch?v=ryyPW754sJQ</a>
-</div>
+
+
 </body>
 </html>
