@@ -6,13 +6,13 @@
     padding: 60px;
     text-align: center;
     background:#1abc9c;
-    color: ;
+    color: gray;
     font-size: 30px;
 }
 .topnav a {
 	float: left;
 	display: block;
-	color: f2f2f2;
+	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -21,35 +21,55 @@
 	background-color:#ddd;
 	color: black;
 }
-</style>
-</head>
-<div class="header">
-<h1>Amazing potatoes!!!</h1>
-<p>It's good for you.</p>
-</div>
-<body>
-<div style="background-color:black;color:white;padding:20px;">   
-<h2>Potatoes</h2>
-<p> Potatoes are plants the grow underground amd they were founded by a person named Sir Walter Raleigh in the year of 1589. It was produced on a field of 40,000 acres.It took almost four decades to spread them all over Europe. </p>
 
-
-<div class="food">
-  <h2>Uses</h2>
-  <p>Potatoes are useful as food or medications.The reason a potato is medication is becuae native americans use it.</p>
-</div>
-</div>
-<style>
 #Thankyouforlearning! {
   background-color: Blue;
   color: black;
   padding: 40px;
   text-align: center;
 } 
+
+div.sawesomeness {
+position:-webkit-sticky;
+position:sticky;
+top: 0;
+padding:5px;
+background-color: #ddd;
+border: 2px solid #4CAF50;
+
+}
 </style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>Amazing potatoes!!!</h1>
+<p>It's good for you.</p>
+</div>
+
+<div class= "topnav">
+<a href="https://www.youtube.com/watch?v=ryyPW754sJQ">Music</a>
+</div>
+
+<div class="sawesomeness">Potatoes</div> 
+
+<div style="background-color:black;color:white;padding:20px;">  
+<h2>Potatoes</h2>
+<p> Potatoes are plants the grow underground amd they were founded by a person named Sir Walter Raleigh in the year of 1589. It was produced on a field of 40,000 acres.It took almost four decades to spread them all over Europe. </p>
+<div class="food">
+  <h2>Uses</h2>
+  <p>Potatoes are useful as food or medications.The reason a potato is medication is becuae native americans use it.</p>
+</div>
+</div>
+
 
 <h1 id="myHeader">Thank you for learning!</h1>
-<div class= "topnav">
-<a href="https://www.youtube.com/watch?v=ryyPW754sJQ">https://www.youtube.com/watch?v=ryyPW754sJQ</a>
-</div>
+
+
+<div style="padding-bottom:2000px"> </div>
+
+
+
 </body>
 </html>
