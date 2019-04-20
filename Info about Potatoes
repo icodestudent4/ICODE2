@@ -17,7 +17,7 @@
 	padding: 14px 16px;
 	text-decoration: none;
 }
-.topnax a:hover{
+.topnav a:hover{
 	background-color:#ddd;
 	color: black;
 }
@@ -49,7 +49,7 @@
 
 <h1 id="myHeader">Thank you for learning!</h1>
 <div class= "topnav">
-<a href="#">https://www.youtube.com/watch?v=ryyPW754sJQ</a>
+<a href="https://www.youtube.com/watch?v=ryyPW754sJQ">https://www.youtube.com/watch?v=ryyPW754sJQ</a>
 </div>
 </body>
 </html>
