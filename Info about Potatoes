@@ -9,6 +9,11 @@
     color: gray;
     font-size: 30px;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 .topnav a {
 	float: left;
 	display: block;
@@ -33,10 +38,19 @@ div.sawesomeness {
 position:-webkit-sticky;
 position:sticky;
 top: 0;
-padding:5px;
+padding:10px;
 background-color: #ddd;
 border: 2px solid #4CAF50;
 
+}
+
+a:visited {
+color: #00FF00;
+}
+
+p::first-letter { 
+  font-size: 200%;
+  color: blue;
 }
 </style>
 </head>
@@ -45,14 +59,18 @@ border: 2px solid #4CAF50;
 
 <div class="header">
 <h1>Amazing potatoes!!!</h1>
-<p>It's good for you.</p>
+
 </div>
+
+
+<div class="sawesomeness">
+
 
 <div class= "topnav">
-<a href="https://www.youtube.com/watch?v=ryyPW754sJQ">Music</a>
-</div>
 
-<div class="sawesomeness">Potatoes</div> 
+<a href="https://www.youtube.com/watch?v=ryyPW754sJQ">Music</a>
+</div> 
+</div>
 
 <div style="background-color:black;color:white;padding:20px;">  
 <h2>Potatoes</h2>
@@ -73,3 +91,4 @@ border: 2px solid #4CAF50;
 
 </body>
 </html>
+
